@@ -16,7 +16,9 @@ const muiTheme = getMuiTheme({
     height: 50,
   },
 });
+
 class App extends Component {
+
   render() {
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
@@ -25,7 +27,6 @@ class App extends Component {
           <ContainerMap></ContainerMap>
           <Footer/>
         </div>
-      </MuiThemeProvider>
     );
   }
 }

@@ -9,6 +9,19 @@ Footer {
   width: 100%;
   background-color: #F95900;
   color: white;
+
   text-align: center;
   font-size: 0.6em;
 }
+
+
+.main{
+  background-image: url(./Captura.jpg);
+
+}
+.button{
+  background-image: url(./boton.png);
+  width: 30%;
+  
+}
+

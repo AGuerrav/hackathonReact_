@@ -1,3 +1,4 @@
+
 /* global google*/ 
 import React from 'react';
 const { compose, withProps, lifecycle } = require('recompose');
@@ -8,6 +9,7 @@ const {
   DirectionsRenderer,
   Marker,
 } = require('react-google-maps');
+
 
 const MapWithADirectionsRenderer = compose(
   withProps({
@@ -48,7 +50,6 @@ const MapWithADirectionsRenderer = compose(
       animation={google.maps.Animation.BOUNCE}
     />
   </GoogleMap>
-
 );
 // esto debería setiar el nuevo estado pero no sé cómo engancharlo con el marker de arriba
 class ContentContainer extends React.Component {
@@ -72,3 +73,4 @@ class ContentContainer extends React.Component {
 }
 
 export default MapWithADirectionsRenderer;
+
