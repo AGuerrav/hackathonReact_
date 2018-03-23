@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+/* global google*/ 
 import React from 'react';
 const { compose, withProps, lifecycle } = require('recompose');
 const {
