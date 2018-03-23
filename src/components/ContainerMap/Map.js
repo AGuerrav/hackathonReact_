@@ -1,5 +1,4 @@
-
-/* global google*/ 
+/* global google*/
 import React from 'react';
 const { compose, withProps, lifecycle } = require('recompose');
 const {
@@ -40,7 +39,7 @@ const MapWithADirectionsRenderer = compose(
   })
 )(props =>
   <GoogleMap
-    defaultZoom={7}
+    defaultZoom={10}
     defaultCenter={new google.maps.LatLng(-33.4225577, -70.6467192)}
   >
     {props.directions && <DirectionsRenderer directions={props.directions} />}
@@ -73,4 +72,3 @@ class ContentContainer extends React.Component {
 }
 
 export default MapWithADirectionsRenderer;
-
