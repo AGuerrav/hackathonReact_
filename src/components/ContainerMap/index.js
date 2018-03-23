@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import MapContainer from './Map';
+import MapWithADirectionsRenderer from './Map';
 
-class ContainerMap extends Component{
+
+class ContainerMap extends Component {
   render() {
     return (
       <div>
-        <MapContainer/>
+        <MapWithADirectionsRenderer/>
       </div>
     );
   }
