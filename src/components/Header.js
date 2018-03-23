@@ -4,7 +4,7 @@ import IconButton from 'material-ui/IconButton';
 
 const Header = () => (
   <AppBar
-    title="Mi pedido actual"
+    title="Seguimiento"
     iconElementRight={<IconButton>
     </IconButton>}
   />
