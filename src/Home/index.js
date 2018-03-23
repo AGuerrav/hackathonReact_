@@ -22,10 +22,10 @@ class Home extends Component {
       <MuiThemeProvider muiTheme={muiTheme}>
         <Header/>
       <main className= 'main'>
-        
+
         <ul>
           <li className='button'>
-            <Link to="/google-maps-stateful">Ver Recorrido</Link>
+            <Link className='link' to="/google-maps-stateful">Ver Recorrido</Link>
           </li>
 
         </ul>
